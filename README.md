@@ -48,7 +48,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ofarouq310.github.io/Wrestling_News_Page/)
 
 
 ## Getting Started
