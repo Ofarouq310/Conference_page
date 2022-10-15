@@ -1,15 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Wrestling News Page 
 
-> Description the project.
+> This page is dedicated to presenting the latest news in the world of wrestling.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+#### Major languages:
+- [x] HTML5
+- [x] CSS3
+- [x] Javascript
+
+#### Frameworks
+- [x] Bootstrap (CSS)
+
+#### Technologies used
+- [x] SASS (CSS Pre-processor)
+- [x] Linters
+
 
 ## Live Demo (if available)
 
@@ -40,17 +49,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Omar Farouq**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Ofarouq310](https://github.com/Ofarouq310)
+- LinkedIn: [@Omar Farouq](https://linkedin.com/in/Ofarouq310)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -58,18 +61,16 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- All thankfulness to Microverse for equipping me with such skills to utilize in real-world projects and applications. 
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
