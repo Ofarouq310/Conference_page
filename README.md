@@ -33,17 +33,17 @@
 
 ## Built With
 
-#### - Major languages:
-- [x] HTML5
-- [x] CSS3
-- [x] Javascript
+#### Major languages:
+>- [x] HTML5
+>- [x] CSS3
+>- [x] Javascript
 
-#### - Frameworks
-- [x] Bootstrap (CSS)
+#### Frameworks
+>- [x] Bootstrap (CSS)
 
-#### - Technologies used
-- [x] SASS (CSS Pre-processor)
-- [x] Linters
+#### Technologies used
+>- [x] SASS (CSS Pre-processor)
+>- [x] Linters
 
 
 ## Live Demo
