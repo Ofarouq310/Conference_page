@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# International Wedding Conference Webpage 
+# International Wedding Conference Webpage
 
 > A event's website that will offer you a comprehensive guide and consultation for your wedding and your new life, where our crew consists of the most professional consultants, organizers, and designers, who will help you to make your wedding and the journey after, unique and memorable.
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -39,38 +40,34 @@
 >- [x] Javascript
 
 #### Frameworks
->- [x] Bootstrap (CSS)
+>- [ ] Bootstrap (CSS)
 
 #### Technologies used
->- [x] SASS (CSS Pre-processor)
+>- [ ] SASS (CSS Pre-processor)
 >- [x] Linters
 
 
-## Live Demo
+## Live
 
-[Live Demo Link](https://ofarouq310.github.io/International_Wedding_Conference/)
+[Live Link](https://ofarouq310.github.io/International_Wedding_Conference/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- A web browser (like Google Chrome, Opera...).
+- A code editor (like Atom, VScode...).
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
+To setup the webpage locally: click on "**Code**" (dropdown list) then "**Download ZIP**".
 
 ### Deployment
 
+To run the project open the downloaded folder (after extraction) then run the "**index.html**" file in your browser.
 
 
 ## Authors
@@ -95,6 +92,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Huge praise for the author who is responsible for this unique design [Cindy Shin](https://www.behance.net/adagio07).
 - All thankfulness to Microverse for equipping me with such skills to utilize in real-world projects and applications. 
 
 ## License
