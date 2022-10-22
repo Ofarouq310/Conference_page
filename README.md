@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Wrestling News Page 
+# International Wedding Conference Webpage 
 
-> This page is dedicated to presenting the latest news in the world of wrestling.
+> A event's website that will offer you a comprehensive guide and consultation for your wedding and your new life, where our crew consists of the most professional consultants, organizers, and designers, who will help you to make your wedding and the journey after, unique and memorable.
 
 
 <!-- TABLE OF CONTENTS -->
@@ -48,7 +48,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ofarouq310.github.io/Wrestling_News_Page/)
+[Live Demo Link](https://ofarouq310.github.io/International_Wedding_Conference/)
 
 
 ## Getting Started
