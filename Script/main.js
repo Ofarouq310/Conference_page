@@ -97,8 +97,6 @@ function showMore() {
                `;
     spkrGrid.innerHTML += cardInfo;
   });
-  const footer = document.getElementsByClassName('footer');
-  footer[0].style.display = 'block';
 }
 
 // Function to generate Desktop Speakers' Cards
@@ -118,8 +116,6 @@ function desktopCards() {
     spkrGrid.innerHTML += cardInfo;
     const moreBtn = document.getElementById('more_btn');
     moreBtn.style.display = 'none';
-    const footer = document.getElementsByClassName('footer');
-    footer[0].style.display = 'block';
   });
 }
 
