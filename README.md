@@ -40,10 +40,10 @@
 >- [x] Javascript
 
 #### Frameworks
->- [x] Bootstrap (CSS)
+>- [ ] Bootstrap (CSS)
 
 #### Technologies used
->- [x] SASS (CSS Pre-processor)
+>- [ ] SASS (CSS Pre-processor)
 >- [x] Linters
 
 
