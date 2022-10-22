@@ -748,7 +748,7 @@
 
   .speakers_grid {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 47% 47%;
     grid-template-rows: repeat(3, 200px);
     padding: 10px 10px;
     row-gap: 25px;
