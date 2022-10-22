@@ -82,7 +82,7 @@
 /* Headline Section */
 
 .headline {
-  background-image: url('Assets/mobile_intro_bg2.png');
+  background-image: url('/Assets/mobile_intro_bg2.png');
   background-color: rgb(247, 247, 248);
   background-repeat: no-repeat;
   background-position: 100% 30%;
@@ -240,7 +240,7 @@
 
 #event_pic1 {
   display: block;
-  background: linear-gradient(#ec230d93, #f228128b), url('Assets/event_picture1.jpeg');
+  background: linear-gradient(#ec230d93, #f228128b), url('/Assets/event_picture1.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -249,7 +249,7 @@
 
 #event_pic1:hover {
   scale: 1.01;
-  background-image: linear-gradient(#433e3e93, #7672718b), url('Assets/event_picture1.jpeg');
+  background-image: linear-gradient(#433e3e93, #7672718b), url('/Assets/event_picture1.jpeg');
 }
 
 #event_pic1 :first-child {
@@ -272,7 +272,7 @@
 
 #event_pic2 {
   display: block;
-  background-image: linear-gradient(#ec230d93, #f228128b), url('Assets/event_picture2.jpeg');
+  background-image: linear-gradient(#ec230d93, #f228128b), url('/Assets/event_picture2.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -281,7 +281,7 @@
 
 #event_pic2:hover {
   scale: 1.01;
-  background-image: linear-gradient(#433e3e93, #7672718b), url('Assets/event_picture2.jpeg');
+  background-image: linear-gradient(#433e3e93, #7672718b), url('/Assets/event_picture2.jpeg');
 }
 
 #event_pic2 :first-child {
