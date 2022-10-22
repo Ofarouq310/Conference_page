@@ -11,12 +11,12 @@
   display: none;
 }
 
-#nav_bar {
+.nav_bar {
   padding: 0 15px;
   display: none;
 }
 
-#nav_bar ul {
+.navbar_list {
   display: none;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +25,7 @@
   text-decoration: none;
 }
 
-#nav_bar ul li a {
+.nav_link {
   padding: 0 10px;
   text-decoration: none;
   color: white;
@@ -33,7 +33,7 @@
 
 /* Sidebar Section */
 
-#sidebar {
+.sidebar {
   width: 100%;
   height: 100vh;
   background-color: #33353bec;
@@ -62,7 +62,7 @@
   filter: grayscale(100%);
 }
 
-#sidebar ul {
+.sidebar ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -73,7 +73,7 @@
   text-decoration: none;
 }
 
-#sidebar ul li {
+.sidebar ul li {
   padding: 10px 8px;
   font-family: 'Lato', sans-serif;
   font-size: 32px;
@@ -85,19 +85,19 @@
   text-align: center;
 }
 
-#sidebar ul li a {
+.sidebar ul li a {
   text-decoration: none;
   color: white;
 }
 
-#sidebar ul li:hover {
+.sidebar ul li:hover {
   scale: 1.1;
 }
 
 /* Headline Section */
 
 .headline {
-  background-image: url(/Assets/mobile_intro_bg.png);
+  background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/mobile_intro_bg.png');
   background-position: 50% top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -140,7 +140,7 @@
   font-family: 'Cocogoose', sans-serif;
   font-size: 30px;
   font-weight: 900;
-  background-image: url(/Assets/color-shape-graphic-design-colorful-technology-background-6014c31230dc98270462f2b083dc87a9.png);
+  background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/color-shape-graphic-design-colorful-technology-background-6014c31230dc98270462f2b083dc87a9.png');
   background-position: 130% 60%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: #c21f0cb8;
@@ -180,7 +180,7 @@
 
 .main_program {
   background-color: #272a32;
-  background-image: url(/Assets/pattern_bg.png);
+  background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/pattern_bg.png');
   background-repeat: repeat;
   padding: 35px 0;
 }
@@ -277,7 +277,7 @@
   grid-template-rows: repeat(2, 150px);
   justify-content: center;
   align-items: center;
-  row-gap: 25px;
+  row-gap: 30px;
 }
 
 .speaker_card {
@@ -371,7 +371,7 @@
 /* Footer Section */
 
 .footer {
-  display: none;
+  display: block;
   margin-top: 15px;
 }
 
@@ -517,13 +517,13 @@
     color: rgba(255, 255, 255, 0.86);
   }
 
-  #nav_bar ul li a {
+  .nav_link {
     padding: 0 10px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.642);
   }
 
-  #nav_bar ul li a:hover {
+  .nav_link:hover {
     color: #ec5242;
   }
 
@@ -541,7 +541,7 @@
     box-shadow: #090909 -1px -3px 20px;
   }
 
-  #nav_bar {
+  .nav_bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -554,7 +554,7 @@
     padding: 3px 0;
   }
 
-  #nav_bar ul {
+  .navbar_list {
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -562,21 +562,21 @@
     display: flex;
   }
 
-  #nav_bar ul li {
+  .navlist_item {
     padding: 0 10px;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 900;
   }
 
-  #nav_bar ul li:hover {
+  .navlist_item:hover {
     transform: scale(1.04);
   }
 
   /* Headline Section */
 
   .headline {
-    background-image: url(/Assets/main_big.png);
+    background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/main_big.png');
     background-size: cover;
     padding-bottom: 100px;
   }
@@ -604,10 +604,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 60px;
     font-weight: 900;
-    background-image: url(/Assets/color-shape-graphic-design-colorful-technology-background-6014c31230dc98270462f2b083dc87a9.png);
     background-position: 130% 60%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #a91d0d7b;
   }
 
   #headline_text {
@@ -644,7 +641,7 @@
 
   .main_program {
     background-color: #272a32;
-    background-image: url(/Assets/pattern_bg.png);
+    background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/pattern_bg.png');
     background-repeat: repeat;
     padding: 35px 0;
   }
@@ -954,13 +951,13 @@
     color: rgba(255, 255, 255, 0.86);
   }
 
-  #nav_bar ul li a {
+  .nav_link {
     padding: 0 10px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.642);
   }
 
-  #nav_bar ul li a:hover {
+  .nav_link:hover {
     color: #ec5242;
   }
 
@@ -978,7 +975,7 @@
     box-shadow: #090909 -1px -3px 20px;
   }
 
-  #nav_bar {
+  .nav_bar {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -991,7 +988,7 @@
     padding: 3px 0;
   }
 
-  #nav_bar ul {
+  .navbar_list {
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -999,21 +996,20 @@
     display: flex;
   }
 
-  #nav_bar ul li {
+  .navlist_item {
     padding: 0 10px;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 900;
   }
 
-  #nav_bar ul li:hover {
+  .navlist_item:hover {
     transform: scale(1.04);
   }
 
   /* Headline Section */
 
   .headline {
-    background-image: url(/Assets/main_big.png);
     background-size: cover;
     padding-bottom: 100px;
   }
@@ -1041,7 +1037,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 70px;
     font-weight: 900;
-    background-image: url(/Assets/color-shape-graphic-design-colorful-technology-background-6014c31230dc98270462f2b083dc87a9.png);
+    background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/color-shape-graphic-design-colorful-technology-background-6014c31230dc98270462f2b083dc87a9.png');
     background-position: 130% 60%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #a91d0d7b;

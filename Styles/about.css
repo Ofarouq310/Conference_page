@@ -12,7 +12,7 @@
   display: none;
 }
 
-#nav_bar {
+.nav_bar {
   display: none;
 }
 
@@ -82,7 +82,7 @@
 /* Headline Section */
 
 .headline {
-  background-image: url(/Assets/mobile_intro_bg2.png);
+  background-image: url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/mobile_intro_bg2.png');
   background-color: rgb(247, 247, 248);
   background-repeat: no-repeat;
   background-position: 100% 30%;
@@ -240,7 +240,7 @@
 
 #event_pic1 {
   display: block;
-  background: linear-gradient(#ec230d93, #f228128b), url(/Assets/event_picture1.jpeg);
+  background: linear-gradient(#ec230d93, #f228128b), url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/event_picture1.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -249,7 +249,7 @@
 
 #event_pic1:hover {
   scale: 1.01;
-  background-image: linear-gradient(#433e3e93, #7672718b), url(/Assets/event_picture1.jpeg);
+  background-image: linear-gradient(#433e3e93, #7672718b), url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/event_picture1.jpeg');
 }
 
 #event_pic1 :first-child {
@@ -272,7 +272,7 @@
 
 #event_pic2 {
   display: block;
-  background-image: linear-gradient(#ec230d93, #f228128b), url(/Assets/event_picture2.jpeg);
+  background-image: linear-gradient(#ec230d93, #f228128b), url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/event_picture2.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -281,7 +281,7 @@
 
 #event_pic2:hover {
   scale: 1.01;
-  background-image: linear-gradient(#433e3e93, #7672718b), url(/Assets/event_picture2.jpeg);
+  background-image: linear-gradient(#433e3e93, #7672718b), url('C:/Users/h/Desktop/Microverse Projects/International_Wedding_Conference/Assets/event_picture2.jpeg');
 }
 
 #event_pic2 :first-child {
@@ -410,19 +410,7 @@
     background-color: #272a32;
   }
 
-  #cc_campaign {
-    display: flex;
-    margin-left: 20px;
-    text-align: center;
-    border: #ec5242 3px solid;
-  }
-
-  #cc_campaign a {
-    color: #ec5242;
-    font-weight: 700;
-  }
-
-  #upper_header {
+  .upper_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -432,7 +420,7 @@
     background-color: #272a32;
   }
 
-  #upper_header ul {
+  .upper_header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -440,42 +428,42 @@
     text-decoration: none;
   }
 
-  #upper_header ul li {
+  .upper_header ul li {
     padding: 0 6px;
     font-family: 'Lato', sans-serif;
     font-size: 10px;
   }
 
-  #nav_bar ul li a {
+  .nav_link {
     padding: 0 10px;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.642);
   }
 
-  #upper_header ul li a {
+  .upper_header ul li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.86);
   }
 
-  #nav_bar ul li a:hover {
+  .nav_link:hover {
     color: #ec5242;
   }
 
-  #upper_header ul li a:hover {
+  .upper_header ul li a:hover {
     color: white;
   }
 
-  #upper_header img {
+  .upper_header img {
     width: 60%;
     height: auto;
   }
 
-  #navbar_wrapper {
+  .navbar_wrapper {
     position: relative;
     box-shadow: #090909 -1px -3px 20px;
   }
 
-  #nav_bar {
+  .nav_bar {
     padding: 0 15px;
     display: flex;
     justify-content: space-around;
@@ -489,22 +477,34 @@
     padding: 3px 0;
   }
 
-  #nav_bar ul {
+  .navbar_list {
     display: flex;
     list-style: none;
     justify-content: space-around;
     align-items: center;
   }
 
-  #nav_bar ul li {
+  .navlist_item {
     padding: 0 10px;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
     font-weight: 900;
   }
 
-  #nav_bar ul li:hover {
+  .navlist_item:hover {
     transform: scale(1.04);
+  }
+
+  #cc_campaign {
+    display: flex;
+    margin-left: 20px;
+    text-align: center;
+    border: #ec5242 3px solid;
+  }
+
+  #cc_campaign a {
+    color: #ec5242;
+    font-weight: 700;
   }
 
   /* Headline Section */
@@ -571,7 +571,6 @@
   }
 
   #event_pic1 {
-    background: linear-gradient(#ec230d93, #f228128b), url(/Assets/event_picture1.jpeg);
     display: flex;
     flex-direction: column;
     justify-content: center;
