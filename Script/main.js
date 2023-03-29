@@ -67,7 +67,7 @@ const spkrCards = [{
 function mobileCards() {
   spkrCards.filter((card) => card.id < 2).forEach((card) => {
     const cardInfo = `
-      <article class="speaker_card">
+      <div class="speaker_card">
                       <div class="speaker_card_img">
                       <img src="${card.img}" alt="${card.text1}">
                       </div>
@@ -77,7 +77,7 @@ function mobileCards() {
                       <div id="speaker_lnbrk"></div>
                       <p class="speaker_text3">${card.text3}</p>
                 </div>    
-               </article>
+               </div>
                `;
     spkrGrid.innerHTML += cardInfo;
   });
@@ -87,7 +87,7 @@ function mobileCards() {
 function showMore() {
   spkrCards.filter((card) => card.id >= 2).forEach((card) => {
     const cardInfo = `
-      <article class="speaker_card">
+      <div class="speaker_card">
                       <div class="speaker_card_img">
                       <img src="${card.img}" alt="${card.text1}">
                       </div>
@@ -97,7 +97,7 @@ function showMore() {
                       <div id="speaker_lnbrk"></div>
                       <p class="speaker_text3">${card.text3}</p>
                 </div>    
-               </article>
+               </div>
                `;
     spkrGrid.innerHTML += cardInfo;
   });
@@ -107,7 +107,7 @@ function showMore() {
 function desktopCards() {
   spkrCards.forEach((card) => {
     const cardInfo = `
-        <article class="speaker_card">
+        <div class="speaker_card">
                         <div class="speaker_card_img">
                         <img src="${card.img}" alt="${card.text1}">
                         </div>
@@ -117,7 +117,7 @@ function desktopCards() {
                         <div id="speaker_lnbrk"></div>
                         <p class="speaker_text3">${card.text3}</p>
                   </div>    
-                 </article>
+                 </div>
                  `;
     spkrGrid.innerHTML += cardInfo;
     const moreBtn = document.getElementById('more_btn');
