@@ -1,10 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center"> 
-
-  <img src="https://github.com/Ofarouq310/Microverse_readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/Ofarouq310/Ofarouq310/blob/main/logo-trans1.png" alt="logo" width="200"  height="auto" />
   <br/>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
