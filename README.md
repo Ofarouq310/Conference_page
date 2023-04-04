@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ofarouq310.github.io/International_Wedding_Conference/)
+- [Live Demo Link](https://ofarouq310.github.io/International-Wedding-Conference/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
